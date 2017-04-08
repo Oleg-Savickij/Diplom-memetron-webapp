@@ -1,0 +1,113 @@
+/*@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext,cyrillic);
+
+body {
+  min-width: 1200px;
+  font-family: 'Roboto', sans-serif!important;
+}
+
+.application, .page {
+  position: relative;
+}
+
+.page {
+  padding-top: 190px;
+  padding-left: 250px;
+  padding-right: 200px;
+}
+
+.navbar-brand {
+  width: 1.5em!important;
+  height: 1.5em!important;
+  margin-left: 0!important;
+  margin-top: .5em;
+  background: url('../img/memetron_logo.png') no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*.workspace {
+  padding-top: 8em;
+}*/
+/*@media (max-width: 768px){
+  body {
+    padding-top: 195px;
+  }
+}*/
+
+.btn-default {
+  color: #0086c9 !important;
+}
+
+.sqwear180 {
+  position: relative;
+  height: 180px;
+  width : 180px;
+}
+
+.sqwear100 {
+  position: relative;
+  height: 100px;
+  width : 100px;
+}
+
+textarea { resize: vertical!important; }
+
+.pageHeader h2 {
+  margin: 0 !important;
+  padding: 15px 0 !important;
+}
+
+.pageHeader .breadcrumb {
+  margin: 0 !important;
+  padding: 0 0 17px !important;
+  background-color: transparent;
+}
+
+.btn-img-choose {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.btn-img-remove {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 18px;
+  height: 18px;
+  padding: 1px 2px 2px;
+  cursor: pointer;
+  color: darkgray;
+  background-color: rgba(169,169,169, 0.5);
+  border-radius: 4px;
+}
+
+.btn-img-remove:hover {
+  color: dimgray;
+}
+
+.pdf-cell {
+  background-size: 40px;
+  height: 38px;
+  padding-left: 50px;
+}
+
+.product-pictures {
+  padding-right: 15px;
+}
+
+.product-picture {
+  width: 180px;
+  height: 180px;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
